@@ -1,0 +1,485 @@
+<resources>
+    <string name="app_name">QuizApplication</string>
+    <string name="true_text">Σ</string>
+    <string name="false_text">Λ</string>
+    <string name="correct_answer">Απάντησες Σωστά</string>
+    <string name="wrong_answer">Απάντησες Λάθος</string>
+
+    <string name="question_declaration">Ο Πολύγυρος είναι πρωτεύουσα του νομου Χαλκιδικής .</string>
+    //True
+    <string name="question_temp">Η Βέροια είναι πρωτεύουσα του νομού Ημαθίας.</string>
+    //True
+    <string name="question_body">Τα Γιαννιτσά είναι πρωτεύουσα του νομού Ημαθίας.</string>
+    //False - 206
+    <string name="question_human">Η Αράχοβα βρίσκεται στον νομό Φωκίδας. </string>
+    //False - 2
+    <string name="question_physics">Η Πτολεμαΐδα είναι πρωτεύουσα του νομού Κοζάνης. </string>
+    // True
+    <string name="question_spider">Το Μέτσοβο βρίσκεται στον νομό Θεσπρωτίας. </string>
+    //False - 8
+    <string name="question_water">Το Γύθεο βρίσκεται στον νομό Μεσσηνίας. </string>
+    //False
+    <string name="question_shark">Η βόνιτσα βρίσκεται στον νομό Πρέβεζας. </string>
+    //False Shark are Fish
+    <string name="question_electron">Η Νιγριτα βρίσκεται στον νομό Δράμας. </string>
+    //False
+    <string name="question_planet">Ο Δομοκός βρίσκεται στον νομό Μαγνησίας. </string>
+    //False - Mercury
+    <string name="question_ocean">Ο Τύρναβος βρίσκεται στον νομό καρδίτσας. </string>
+    //False - Pacific Ocean
+    <string name="previous_text">previous</string>
+    <string name="next_text">next_text</string>
+    <string name="ture_text">ture</string>
+    <string name="false_">false</string>
+
+    <string name="question_kavalas">Η θάσος βρίσκεται στον νομό Καβάλας. </string>
+    //true
+    <string name="question_florinas">Το Αμύνταιο βρίσκεται στον νομό Φλώρινας</string>
+    //true
+    <string name="question_peloponnhso">Η λίμνη Κορώνεια βρίσκεται στην Πελοπόννησο. </string>
+    //False
+    <string name="question_aitoloakarnanias">Η λίμνη Τριχωνίδα βρίσκεται στον νομό ΑιτωλοΑκαρνανίας. </string>
+    //true
+    <string name="question_thrakhs">Η λίμνη Βιστωνίδα βρίσκεται στο γεωγραφικό διαμέρισμα της Θράκης. </string>
+    //true
+    <string name="question_makedonia">Η λίμνη Πετρών βρίσκεται στη Μακεδονία. </string>
+    //true
+    <string name="question_ellada">Το βουνό Ταύγετος βρίσκεται στη Στερά Ελλάδα. </string>
+    //False
+    <string name="question_thessalias">Η λίμνη Πετρών βρίσκεται στη Μακεδονία. </string>
+    //true
+    <string name="question_naupaktos">Η Ναύπακτος βρίσκεται στον νομό Αιτωλοακαρνανίας. </string>
+    //true
+    <string name="question_olybos">Το βουνο ολυμπος βρίσκεται στα όρια Μκεδονίας. </string>
+    //true
+    <string name="question_voras">Το βουνό Βόρας(καίμακτσαλάν) βρίσκεται στη Στερά Ελλάδα. </string>
+    //False
+    <string name="question_idh">Το βουνό Ίδη (Ψληορείτης) βρίσκεται στην Πελοπόννησο. </string>
+    //False
+    <string name="question_galaksidi">Το Γαλαξίδι βρίσκεται στον νομό Φωκίδας. </string>
+    //true
+    <string name="question_atalanth">Η Αταλάντη βρίσκεται στον νομό φθιώτιδας. </string>
+    //true
+    <string name="question_parnonas">Το βουνό Πάρνωνας βρίσκεται στην Πελοπόννησο. </string>
+    //true
+    <string name="question_kithaironas">Η Αμφιλοχία βρίσκεται στον νομό Άρτας. </string>
+    //False
+    <string name="question_elikonas">Το βουνό Ελικώνας βρίσκεται στη Στερεά Ελλάδα. </string>
+    //true
+    <string name="question_paggaio">Το βουνό Παγγααίο βρίσκεται στη Στερεά Ελλάδα. </string>
+    //False
+    <string name="question_kalabaka">Η Καλαμπάκα βρίσκεται στον νομό Τρικάλων. </string>
+    //true
+    <string name="question_plasthra">Η λίμνη Πλαστήρα βρίσκεται στον νομό καρδίτσας. </string>
+    //true
+    <string name="question_orestiada">Η Όρεστιάδα βρίσκεται στον νομό Έβρου. </string>
+    //true
+    <string name="question_ormenio">Το Ορμένιο είναι το βορειότερο τμήμα του νομού Έβροα, το ακρότατο σημείο της χώρας στον Βορρά, στα ελληνοβουλγαρικά σύνορα. </string>
+    //true
+    <string name="question_gaydos">Η Γαύδος είναι το ανατολικότερο νησί της Ελλάδας. </string>
+    //False
+    <string name="question_nhsiotiko">Το νησιοτικό σύμπλεγμα της Μεγίστης βρίσκεται στο ανατολικότερο σημείο της Ελλάδας. </string>
+    //true
+    <string name="question_fanoi">Οι Οθωνοί ή αλλιώς Φανοί το μικρό νησάκι του νομύ της Κέρκυρας, είναι το δυτικότερο σημείο της Ελλάδας. </string>
+    //true
+    <string name="question_aliakmonas">Ο Ποταμός Αλιάκμονας εκβάλλει στον Θερμαϊκό Κόλπο. </string>
+    //true
+    <string name="question_aksios">Ο ποταμός Αξιός εκβάλλει στο Ιόνιο Πέλαγος. </string>
+    //False
+    <string name="question_axelos">Ο ποταμός Αχελώος εκβάλλει στο Ιόνιο Πέλαγος. </string>
+    //true
+    <string name="question_phneios">Ο ποταμός Πηνειός (της Θεσσαλίας) εκβάλλει στον Θερμαϊκό Κόλπο. </string>
+    //true
+    <string name="question_krhth">Η Κρήτη χωρίζεται σε τέσσερις νομόυς</string>
+    //true
+    <string name="question_pente">Η Πελοπόννησος χωρίζεται σε πέντε νομούς. </string>
+    //False
+    <string name="question_thessalia">Η Θεσσαλία χωρίζεται σε τέσσερις νομούς</string>
+    //true
+    <string name="question_sterea">Η Στερεά Ελλάδα χωρίζεται σε πέντε νομύς. </string>
+    //False
+    <string name="question_kasos">Η κάσος βρίσκεται στο Αιγαιο Πέλαγος.</string>
+    //true
+    <string name="question_astypalaia">Η αστυπάλαια βρίσκεται στο Αιγαίο Πέλαγος.</string>
+    //true
+    <string name="question_ithakh">Η Ιθάκη βρίσκεται στο Ιόνιο Πέλαγος.</string>
+    //true
+    <string name="question_paksoi">Οι Παξοί βρίσκονται στο Ιόνιο Πέλαγος.</string>
+    //true
+    <string name="question_aoos">Ο Αώος ποταμός πηγάζει από την Πίνδο, περνά στην Αλβανία και εκβάλλει στο Αιγαίο Πέλαγος. </string>
+    //False
+    <string name="question_potamoi">Ποταμοί της Πελοποννήσου είναι ο Αλφειός, ο Λάδωνας και ο Ευρώτας.</string>
+    //true
+    <string name="question_ionio">Στο Ιόνιο Πέλαγος εκβάλλουν:Ο Άραχθος,Ο Λούρος, Ο Αχελωος,Ο Εύηνος,ο Μόρνος.</string>
+    //true
+    <string name="question_pelagos">Στο Αιγαίο Πέλαγος εκβάλλουν:Ο Αλιάκμονας,Ο Πηνειός, Ο Σπερχειός.</string>
+    //true
+    <string name="question_limnes">Οι λίμνες της Μεγάλης και Μικρής Πρέσπας ανήκουν και στην Ελλάδα και στη Δημοκρατία της Βόρειας Μακεδονίας και στην Αλβανία. </string>
+    //False
+    <string name="question_pamvotida">Η Παμβώτιδα λίμνη βρίσκεται στον νομό Ιωαννίνων.</string>
+    //true
+    <string name="question_gnostoterh">Η γνωστότερη λιμνοθάλασσα είναι αυτή του Μεσολογγίου, που σχηματίζεται στις εκβολές του Αχελώου ποταμού..</string>
+    //true
+    <string name="question_kyriotera">Τα κυριότερα Αγροτικά Προϊόντα που παράγονται στη χώρα μας είναι: δημητριακά, ελιές-λάδι, σταφύλια-κρασί, εσπεριδοειδή, βιομηχανικά φυτά (καπνά, βαμβάκι, τεύτλα)λαχανικά.</string>
+    //true
+    <string name="question_patra">Η Πάτρα βρίσκεται στο γεωγραφικό διαμέρισμα της Πελοποννήσου.</string>
+    //true
+    <string name="question_leykada">Η Λευκάδα ανήκει στο γεωγραφικό διαμέρισμα των Επτανήσων.</string>
+    //true
+    <string name="question_euboia">Η Ευβοια είναι το μεγαλύτερο (σε έκταση)νησί της Ελλάδας. </string>
+    //False
+    <string name="question_trikala">Τα Τρίκαλα είναι η πρωτεύουσα της Θεσσαλίας. </string>
+    //False
+    <string name="question_porthmos">Ο πορθμός του Ευρίπου βρίσκεται στη Χαλκίδα.</string>
+    //true
+    <string name="question_podophs">Ο νομός Ροδόπης έχει πρωτεύουσα την κομοτηνή.</string>
+    //true
+    <string name="question_biotias">Ο νομός Βοιωτίας έχει πρωτεύουσα τη Θήβα. </string>
+    //False
+    <string name="question_elladas">Τα κλίμα της Ελλάδας είναι εύκρατο μεσογειακό.</string>
+    //true
+    <string name="question_aigaio">Στο Αιγαίο πέλαγος βρίσκονται οι Κυκλάδες και τα Δωδεκάνησα.</string>
+    //true
+    <string name="question_ydra">Στο Ιόνιο Πέλαγος βρίσκεται η Ύδρα. </string>
+    //False
+    <string name="question_boreies">Στις Βόρειες Σποράδες ανήκει η Σκάθος.</string>
+    //true
+    <string name="question_psara">Το Ψαρά βρίσκονται στο Αιγαίο Πέλαγος.</string>
+    //true
+    <string name="question_Xora">Στη χώρα μας θπάρχουν ευκαταστάσεις παραγωγής ηλεκτρικής ενέργειας από λιγνίτη στην Πτολεμαΐδα.</string>
+    //true
+    <string name="question_upedafos">Στο υπέδαφος της Μεγαλόπολης και του αλιβερίου θπάρχουν κοιτάσματα λιγνίτη.</string>
+    //true
+    <string name="question_megalytero">Το μεγαλύτερο μέρος της ηλεκτρικής ενέργειας που καταναλώνουμε παράγεται από τα κοιτάσματα λιγνίτη.</string>
+    //true
+    <string name="question_megalyteres">Οι μεγαλύτερες βιομηχανικές μονάδες της χώρας μας βρίσκονται στην πελοπόννησο. </string>
+    //False
+
+    <string name="score">Score 0/20</string>
+    <string name="scoreB">Score 0/10</string>
+    <string name="question_number">1/20 Question</string>
+    <string name="question_numberB">1/10 Question</string>
+
+
+    <!--here is the questions numbers 1.2.3.6.7.8.10.11.14.19.20.21.23.24.25.26.27.33.34.39.40.-->
+
+    <string name="question_1">Ο Γεώργιος Παπανδρέου έμεινε γνωστός ως?</string>
+    <string name="question1_A">ο γέρος του Μοριά.</string>
+    <string name="question1_B">ο γέρος της Δημοκρατίας.</string>
+    <string name="question1_C">Γεωργάκης Ολύμπιος.</string>
+    <string name="question1_D">Γεώργιος Α΄.</string>
+    <string name="answer_1">ο γέρος της Δημοκρατίας.</string>
+
+    <string name="question_2">Στον 5ο και 4ο αι. π.Χ. δεν πήρε ποτέ την ηγεμονία άλλων ελληνικών πόλεων?</string>
+    <string name="question_2A">η Αθήνα.</string>
+    <string name="question_2B">η Θεσσαλονίκη.</string>
+    <string name="question_2C">η Θήβα.</string>
+    <string name="question_2D">η Σπάρτη.</string>
+    <string name="answer_2">η Θεσσαλονίκη.</string>
+
+    <string name="question_3">Η Βυζαντινή Αυτοκρατορία ήταν?</string>
+    <string name="question_3A">εχθρός της Ρωμαϊκής Αυτοκρατορίας.</string>
+    <string name="question_3B">η Δυτική Ρωμαϊκή Αυτοκρατορία.</string>
+    <string name="question_3C">το Ανατολικό τμήμα της Ρωμαϊκής Αυτοκρατορίας.</string>
+    <string name="question_3D">σύμμαχος της Ρωμαϊκής Αυτοκρατορίας.</string>
+    <string name="answer_3">το Ανατολικό τμήμα της Ρωμαϊκής Αυτοκρατορίας.</string>
+
+    <string name="question_4">Ο Μακεδονικός Αγώνας ήταν σύγκρουση μεταξύ?</string>
+    <string name="question_4A">μεταξύ των Μακεδόνων του Φιλίππου και των υπολοίπων ελληνικών κρατών.</string>
+    <string name="question_4B">μεταξύ των Ελλήνων και των Βουλγάρων.</string>
+    <string name="question_4C">μεταξύ των Βενιζελικών και των βασιλικών.</string>
+    <string name="question_4D">μεταξύ των Ελλήνων και των Οθωμανών.</string>
+    <string name="answer_4">μεταξύ των Ελλήνων και των Βουλγάρων.</string>
+
+    <string name="question_5">Κατά τη διάρκεια της γερμανικής Κατοχής οι Έλληνες?</string>
+    <string name="question_5A">οργάνωσαν κρυφά σχολεία.</string>
+    <string name="question_5B">σχημάτισαν ομάδες ένοπλης αντίστασης στα βουνά.</string>
+    <string name="question_5C">κατέφευγαν στην Αμερική.</string>
+    <string name="question_5D">συνεργάστηκαν στην πλειονότητά τους με τους Γερμανούς.</string>
+    <string name="answer_5">σχημάτισαν ομάδες ένοπλης αντίστασης στα βουνά.</string>
+
+    <string name="question_6">Κατά τη δεκαετία 1950-1960?</string>
+    <string name="question_6A">η Ελλάδα είχε σοσιαλιστικό καθεστώς</string>
+    <string name="question_6B">πολλοί Έλληνες μετανάστευσαν.</string>
+    <string name="question_6C">η Ελλάδα και η Κύπρος ήταν ενωμένες.</string>
+    <string name="question_6D">η Ελλάδα ήταν μέλος της ΕΟΚ.</string>
+    <string name="answer_6">πολλοί Έλληνες μετανάστευσαν.</string>
+
+    <string name="question_7">Οι βρετανικές αρχές συνέλαβαν και απαγχόνισαν για τον αγώνα τους
+εναντίον της βρετανικής κυριαρχίας στην Κύπρο τους?</string>
+    <string name="question_7A">Αρμόδιο και Αριστογείτονα.</string>
+    <string name="question_7B">Σάκο και Βαντσέτι.</string>
+    <string name="question_7C">Μ.Καραολή και Α.Δημητρίου.</string>
+    <string name="question_7D">Μ.Γλέζο και Α.Σάντα.</string>
+    <string name="answer_7">Μ.Καραολή και Α.Δημητρίου.</string>
+
+    <string name="question_8">Πνευματικό ίδρυμα που άρχισε να λειτουργεί τον 17ο αι. και
+επηρέασε τη συνείδηση του Ποντιακού Ελληνισμού.?</string>
+    <string name="question_8A">Λύκειον της Κερασούντος</string>
+    <string name="question_8B">Γυμνάσιον της Αμισού</string>
+    <string name="question_8C">Φροντιστήριον της Τραπεζούντος</string>
+    <string name="question_8D">Πανεπιστήμιον της Σαμψούντος</string>
+    <string name="answer_8">Φροντιστήριον της Τραπεζούντος</string>
+
+    <string name="question_9">Εξαιτίας της έντονης παρουσίας του ελληνικού στοιχείου, μία περιοχή
+στον Νότο της Ιταλίας ονομάστηκε?</string>
+    <string name="question_9A">Άλλη Ελλάδα.</string>
+    <string name="question_9B">Δεύτερη Ελλάδα.</string>
+    <string name="question_9C">Μικρή Ελλάδα.</string>
+    <string name="question_9D">Μεγάλη Ελλάδα.</string>
+    <string name="answer_9">Μεγάλη Ελλάδα.</string>
+
+    <string name="question_10">Τον δικτάτορα Παπαδόπουλο αποπειράθηκε να δολοφονήσει ο?</string>
+    <string name="question_10A">Αλέκος Παναγούλης.</string>
+    <string name="question_10B">Παύλος Μελάς.</string>
+    <string name="question_10C">Γεώργιος Παπανδρέου.</string>
+    <string name="question_10D">Θεόδωρος Κολοκοτρώνης.</string>
+    <string name="answer_10">Αλέκος Παναγούλης.</string>
+
+    <string name="question_11">Ο κεφαλικός φόρος που πλήρωναν οι Χριστιανοί επί Τουρκοκρατίας
+ονομαζόταν?</string>
+    <string name="question_11A">χαράτσι.</string>
+    <string name="question_11B">δεκάτη.</string>
+    <string name="question_11C">καπνικός.</string>
+    <string name="question_11D">παιδομάζωμα.</string>
+    <string name="answer_11">χαράτσι.</string>
+
+    <string name="question_12">Ο Γεώργιος Αβέρωφ (1815-1899) υπήρξε ένας από τους?</string>
+    <string name="question_12A">γνωστότερους έλληνες ναυάρχους.</string>
+    <string name="question_12B">μεγαλύτερους εθνικούς ευεργέτες.</string>
+    <string name="question_12C">διασημότερους ζαχαροπλάστες στο Παρίσι του 19ου αιώνα.</string>
+    <string name="question_12D">σημαντικότερους ποιητές της εποχής του.</string>
+    <string name="answer_12">μεγαλύτερους εθνικούς ευεργέτες.</string>
+
+    <string name="question_13">Η διάνοιξη της διώρυγας στον Ισθμό της Κορίνθου είναι έργο του?</string>
+    <string name="question_13A">Περίανδρου του Κορίνθιου.</string>
+    <string name="question_13B">Δημητρίου Πολιορκητή.</string>
+    <string name="question_13C">Χαρίλαου Τρικούπη.</string>
+    <string name="question_13D">Ιωάννη Καποδίστρια.</string>
+    <string name="answer_13">Χαρίλαου Τρικούπη.</string>
+
+    <string name="question_14">Μετά την προσάρτηση της Θεσσαλίας στο ελληνικό κράτος, τα μεγάλα
+αγροκτήματα (τσιφλίκια) της περιοχής?</string>
+    <string name="question_14A">διανεμήθηκαν δωρεάν στους επαναστάτες.</string>
+    <string name="question_14B">έμειναν ακαλλιέργητα.</string>
+    <string name="question_14C">αγοράστηκαν από πλούσιους Έλληνες του εξωτερικού.</string>
+    <string name="question_14D">συνέχισαν να τα εκμεταλλεύονται οι οθωμανοί ιδιοκτήτες τους.</string>
+    <string name="answer_14">αγοράστηκαν από πλούσιους Έλληνες του εξωτερικού.</string>
+
+    <string name="question_15">Η Φεντερασιόν ήταν?</string>
+    <string name="question_15A">εργατική οργάνωση στη Θεσσαλονίκη.</string>
+    <string name="question_15B">η ένωση των συντακτών ημερησίων εφημερίδων στην Αθήνα.</string>
+    <string name="question_15C">η συντεχνία τεχνιτών στα Αμπελάκια.</string>
+    <string name="question_15D">το σύνθημα της εξέγερσης των καπνεργατών της Θεσσαλονίκης.</string>
+    <string name="answer_15">εργατική οργάνωση στη Θεσσαλονίκη.</string>
+
+    <string name="question_16">Η εμφύλια διαμάχη, από το 1915 ως το 1917, αναφορικά με το αν η
+Ελλάδα θα συμμετείχε στον Α΄ Παγκόσμιο Πόλεμο, έμεινε γνωστή ως?</string>
+    <string name="question_16A">Πανελλήνια Διάσπαση.</string>
+    <string name="question_16B">Σχίσμα.</string>
+    <string name="question_16C">Εθνικός Διχασμός.</string>
+    <string name="question_16D">Εμφύλιος Πόλεμος.</string>
+    <string name="answer_16">Εθνικός Διχασμός.</string>
+
+    <string name="question_17">Η ένοπλη αντίσταση που πρόβαλλαν οι Έλληνες κατά τη διάρκεια του
+Β΄ Παγκοσμίου Πολέμου εναντίον των δυνάμεων Κατοχής ονομάστηκε?</string>
+    <string name="question_17A">Πανελλήνια Ιδέα.</string>
+    <string name="question_17B">Ελληνική Επανάσταση.</string>
+    <string name="question_17C">Εθνική Παλιγγενεσία.</string>
+    <string name="question_17D">Εθνική Αντίσταση.</string>
+    <string name="answer_17">Εθνική Αντίσταση.</string>
+
+
+    <string name="question_19">Μεγάλη επιτυχία της Εθνικής Αντίστασης υπήρξε η ανατίναξη?</string>
+    <string name="question_19A">του γεφυριού της Άρτας.</string>
+    <string name="question_19B">της γέφυρας της Χαλάστρας.</string>
+    <string name="question_19C">της γέφυρας Ρίου-Αντίρριου.</string>
+    <string name="question_19D">της γέφυρας του Γοργοποτάμου.</string>
+    <string name="answer_19">της γέφυρας του Γοργοποτάμου.</string>
+
+    <string name="question_18">Ο Ρήγας Βελεστινλής ήταν</string>
+    <string name="question_18A">βυζαντινός στρατηγός.</string>
+    <string name="question_18B">λόγιος του Νεοελληνικού Διαφωτισμού.</string>
+    <string name="question_18C">ήρωας του 1821.</string>
+    <string name="question_18D">ήρωας της Εθνικής Αντίστασης.</string>
+    <string name="answer_18">λόγιος του Νεοελληνικού Διαφωτισμού.</string>
+
+    <string name="question_20">Την Ελληνική Επανάσταση προετοίμασε?</string>
+    <string name="question_20A">η Επαναστατική Οργάνωση.</string>
+    <string name="question_20B">η Φιλική Εταιρεία.</string>
+    <string name="question_20C">η Ιερή Συμμαχία.</string>
+    <string name="question_20D">Ρωσικό Κόμμα.</string>
+    <string name="answer_20">η Φιλική Εταιρεία.</string>
+
+    <!--here is question 41.42.44.45.46.47.48.49.55.14-->
+    <string name="question_21">Η καταστροφή της Χίου (1822)</string>
+    <string name="question_21A">ήταν μεγάλη επιτυχία των ελλήνων επαναστατών.</string>
+    <string name="question_21B">είναι σύμπλεγμα αγαλμάτων στο Μουσείου του Λούβρου.</string>
+    <string name="question_21C">συγκίνησε πολύ την ευρωπαϊκή κοινή γνώμη.</string>
+    <string name="question_21D">οφειλόταν σε σεισμό.</string>
+    <string name="answer_21">συγκίνησε πολύ την ευρωπαϊκή κοινή γνώμη.</string>
+
+    <string name="question_22">Τον Μάιο του 1919 ο ελληνικός στρατός μπήκε</string>
+    <string name="question_22A">στη Θεσσαλονίκη.</string>
+    <string name="question_22B">στα Ιωάννινα.</string>
+    <string name="question_22C">στη Σμύρνη.</string>
+    <string name="question_22D">στην Άγκυρα.</string>
+    <string name="answer_22">στη Σμύρνη.</string>
+
+    <string name="question_23">H Αυτοκρατορία της Τραπεζούντας ήταν</string>
+    <string name="question_23A">ένα από τα κράτη που κατέλαβε ο Μέγας Αλέξανδρος.</string>
+    <string name="question_23B">η διάδοχος της Οθωμανικής Αυτοκρατορίας.</string>
+    <string name="question_23C">η αυτοκρατορία του Καρλομάγνου.</string>
+    <string name="question_23D">η αυτοκρατορία της δυναστείας των Κομνηνών.</string>
+    <string name="answer_23">η αυτοκρατορία της δυναστείας των Κομνηνών.</string>
+
+    <string name="question_24">Επιλέξτε ποιο από τα παρακάτω δεν υπήρξε ποτέ</string>
+    <string name="question_24A">Βασίλειο της Θεσσαλονίκης.</string>
+    <string name="question_24B">Δουκάτο των Αθηνών.</string>
+    <string name="question_24C">Δεσποτάτο της Κρήτης.</string>
+    <string name="question_24D">Πριγκιπάτο της Αχαΐας.</string>
+    <string name="answer_24">Δεσποτάτο της Κρήτης.</string>
+
+    <string name="question_25">Ο δίκαιος Αριστείδης ήταν</string>
+    <string name="question_25A">πολιτικός αντίπαλος του Θεμιστοκλή.</string>
+    <string name="question_25B">βυζαντινός πατριάρχης.</string>
+    <string name="question_25C">ήρωας του 1821.</string>
+    <string name="question_25D">ήρωας της Αντίστασης.</string>
+    <string name="answer_25">πολιτικός αντίπαλος του Θεμιστοκλή.</string>
+
+    <string name="question_26">Οι Σταυροφόροι κατέλαβαν την Κωνσταντινούπολη</string>
+    <string name="question_26A">κατά την Α΄ Σταυροφορία.</string>
+    <string name="question_26B">κατά τη Β΄ Σταυροφορία.</string>
+    <string name="question_26C">κατά την Γ΄ Σταυροφορία.</string>
+    <string name="question_26D">κατά την Δ΄ Σταυροφορία.</string>
+    <string name="answer_26">κατά την Δ΄ Σταυροφορία.</string>
+
+    <string name="question_27">Η Μαντώ Μαυρογένους ήταν</string>
+    <string name="question_27A">γνωστή ποιήτρια στην αρχαία Αθήνα.</string>
+    <string name="question_27B">βυζαντινή πριγκίπισσα.</string>
+    <string name="question_27C">ηρωίδα του 1821.</string>
+    <string name="question_27D">ηρωίδα της Αντίστασης.</string>
+    <string name="answer_27">ηρωίδα του 1821.</string>
+
+    <string name="question_28">Στις 29 Μαΐου 1453 οι Οθωμανοί κατέλαβαν</string>
+    <string name="question_28A">την Κωνσταντινούπολη.</string>
+    <string name="question_28B">την Αθήνα.</string>
+    <string name="question_28C">τη Θεσσαλονίκη.</string>
+    <string name="question_28D">την Κρήτη.</string>
+    <string name="answer_28">την Κωνσταντινούπολη.</string>
+
+    <string name="question_29">Στις 28 Οκτωβρίου 1940</string>
+    <string name="question_29A">η Ελλάδα επιτέθηκε εναντίον της Γερμανίας.</string>
+    <string name="question_29B">η Ελλάδα επιτέθηκε εναντίον της Ιταλίας.</string>
+    <string name="question_29C">η Γερμανία επιτέθηκε εναντίον της Ελλάδας.</string>
+    <string name="question_29D">η Ιταλία επιτέθηκε εναντίον της Ελλάδας.</string>
+    <string name="answer_29">η Ιταλία επιτέθηκε εναντίον της Ελλάδας.</string>
+
+    <string name="question_30">Ο Ρήγας Βελεστινλής ήταν</string>
+    <string name="question_30A">βυζαντινός στρατηγός.</string>
+    <string name="question_30B">λόγιος του Νεοελληνικού Διαφωτισμού.</string>
+    <string name="question_30C">ήρωας του 1821.</string>
+    <string name="question_30D">ήρωας της Εθνικής Αντίστασης.</string>
+    <string name="answer_30">λόγιος του Νεοελληνικού Διαφωτισμού.</string>
+
+
+    <!--34,35,36,56,57,58,60,61,62,geografi2-->
+    <string name="question_31">Αναγνωρίστε και γράψτε στο τετράδιο ποιος εικονίζεται να ξεκινά την Ελληνική Επανάσταση</string>
+    <string name="question_31A">Παλαιών Πατρών Γερμανός.</string>
+    <string name="question_31B">Αλέξανδρος Υψηλάντης.</string>
+    <string name="question_31C">Ιωάννης Καποδίστριας.</string>
+    <string name="question_31D">Θεόδωρος Κολοκοτρώνης.</string>
+
+    <string name="question_32">Αναγνωρίστε ποιος είναι ο εικονιζόμενος</string>
+    <string name="question_32A">Ίων Δραγούμης.</string>
+    <string name="question_32B">Θεόδωρος Δηλιγιάννης.</string>
+    <string name="question_32C">Χαρίλαος Τρικούπης.</string>
+    <string name="question_32D">Ελευθέριος Βενιζέλος.</string>
+    <string name="answer_32">Ελευθέριος Βενιζέλος.</string>
+
+    <string name="question_33">Αναγνωρίστε ποιος είναι ο εικονιζόμενος</string>
+    <string name="question_33A">Ίων Δραγούμης</string>
+    <string name="question_33B">Ελευθέριος Βενιζέλος</string>
+    <string name="question_33C">Χαρίλαος Τρικούπης</string>
+    <string name="question_33D">Θεόδωρος Δηλιγιάννης</string>
+    <string name="answer_33">Ίων Δραγούμης</string>
+
+    <string name="question_34">Αναγνωρίστε ποιος είναι ο εικονιζόμενος</string>
+    <string name="question_34A">Αθανάσιος Διάκος</string>
+    <string name="question_34B">Γεώργιος Καραϊσκάκης</string>
+    <string name="question_34C">Θεόδωρος Κολοκοτρώνης</string>
+    <string name="question_34D">Οδυσσέας Ανδρούτσος</string>
+    <string name="answer_34">Αθανάσιος Διάκος</string>
+
+    <string name="question_35">Αναγνωρίστε ποιος είναι ο εικονιζόμενος</string>
+    <string name="question_35A">Αθανάσιος Διάκος</string>
+    <string name="question_35B">Θεόδωρος Κολοκοτρώνης</string>
+    <string name="question_35C">Γεώργιος Καραϊσκάκης</string>
+    <string name="question_35D">Οδυσσέας Ανδρούτσος</string>
+    <string name="answer_35">Γεώργιος Καραϊσκάκης</string>
+
+    <string name="question_36">Αναγνωρίστε ποιος είναι ο εικονιζόμενος</string>
+    <string name="question_36A">Αθανάσιος Διάκος</string>
+    <string name="question_36B">Θεόδωρος Κολοκοτρώνης</string>
+    <string name="question_36C">Γεώργιος Καραϊσκάκης</string>
+    <string name="question_36D">Οδυσσέας Ανδρούτσος</string>
+    <string name="answer_36">Οδυσσέας Ανδρούτσος</string>
+
+    <string name="question_37">Αναγνωρίστε ποιος είναι ο εικονιζόμενος</string>
+    <string name="question_37A">Γεώργιος Παπανδρέου</string>
+    <string name="question_37B">Κωνσταντίνος Μητσοτάκης</string>
+    <string name="question_37C">Κωνσταντίνος Καραμανλής</string>
+    <string name="question_37D">Ανδρέας Παπανδρέου</string>
+    <string name="answer_37">Γεώργιος Παπανδρέου</string>
+
+    <string name="question_38">Αναγνωρίστε ποιος είναι ο εικονιζόμενος</string>
+    <string name="question_38A">Γεώργιος Παπανδρέου</string>
+    <string name="question_38B">Κωνσταντίνος Μητσοτάκης</string>
+    <string name="question_38C">Κωνσταντίνος Καραμανλής</string>
+    <string name="question_38D">Ανδρέας Παπανδρέου</string>
+    <string name="answer_38">Κωνσταντίνος Καραμανλής</string>
+
+
+    <string name="question_39">Αναγνωρίστε ποιος είναι ο εικονιζόμενος</string>
+    <string name="question_39A">Γεώργιος Παπανδρέου</string>
+    <string name="question_39B">Κωνσταντίνος Μητσοτάκης</string>
+    <string name="question_39C">Κωνσταντίνος Καραμανλής</string>
+    <string name="question_39D">Ανδρέας Παπανδρέου</string>
+    <string name="answer_39">Ανδρέας Παπανδρέου</string>
+
+
+    <!--geografi3-->
+
+    <string name="question_40">Να εξηγήσετε με 30 περίπου λέξεις τι ήταν τα παρακάτω:1.αρματολοί. 2.Μεγάλη Ελλάδα</string>
+    <string name="answer_40A">Απαντήσεις:
+1. Οι αρματολοί ήταν ένοπλα σώματα που οργάνωνε η οθωμανική
+διοίκηση την περίοδο της Τουρκοκρατίας για την τήρηση της τάξης.
+Συχνά, όμως, οι αρματολοί γίνονταν κλέφτες ή και το αντίστροφο.
+2. Μεγάλη Ελλάδα ονομάστηκε η Κάτω Ιταλία (Νότια Ιταλία), γιατί εκεί,
+τον 8ο π.Χ. αιώνα, κατά τον Β΄ αποικισμό, οι Έλληνες ίδρυσαν πάρα
+πολλές αποικίες, δηλαδή ελληνικές πόλεις.</string>
+
+    <string name="question_41">Επιλέξτε και γράψτε στο τετράδιο τη σωστή απάντηση Το 1922, μετά τον Α ́ Παγκόσμιο Πόλεμο, συνέβη
+α. η καταστροφή της Μιλήτου.
+β. η Άλωση της Κωνσταντινούπολης.
+γ. η σφαγή της Χίου.
+δ. η Μικρασιατική καταστροφή.</string>
+
+    <string name="answer_42A">Απάντηση:
+Το 1922, μετά τον Α ́ Παγκόσμιο Πόλεμο, συνέβη η Μικρασιατική
+καταστροφή.</string>
+
+    <string name="question_42">Γράψτε στο τετράδιο τη σωστή λέξη που λείπει:
+1. Από το 1951 έως το 1967 το μεγαλύτερο νόμιμο κόμμα της Αριστεράς
+ήταν η Ενιαία _____________ Αριστερά.</string>
+
+    <string name="answer_43A">Απαντήσεις:
+1. Από το 1951 έως το 1967 το μεγαλύτερο νόμιμο κόμμα της
+Αριστεράς ήταν η Ενιαία Δημοκρατική Αριστερά (ΕΔΑ).</string>
+
+
+    <string name="selectedoption">SelectedOption</string>
+    <string name="correctanswer">CorrectAnswer</string>
+
+
+</resources>

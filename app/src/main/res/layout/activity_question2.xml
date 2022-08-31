@@ -1,0 +1,1198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFE0B2"
+    android:layout_height="match_parent">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:orientation="vertical"
+        tools:context=".Question2">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="1. Ο νομός Λασιθίου έχει πρωτεύουσα?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/inputText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText1"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="2. O νομός Λέσβου έχει πρωτεύουσα?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+        <EditText
+            android:id="@+id/inputText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText2"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText2" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="3. Ο νομός Κυκλάδων έχει πρωτεύουσα?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+        <EditText
+            android:id="@+id/inputText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText3"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText3" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="4. O νομός Θεσπρωτίας έχει πρωτεύουσα?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button3"  />
+
+        <EditText
+            android:id="@+id/inputText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText4"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText4" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="5. Το Λουτράκι βρίσκεται στον νομό?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button4"  />
+
+        <EditText
+            android:id="@+id/inputText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText5"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText5" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="6. Το Αίγιο βρίσκεται στον νομό?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button5"  />
+
+        <EditText
+            android:id="@+id/inputText6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText6"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText6" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="7. Το Αγρίνιο βρίσκεται στον νομό?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button6"  />
+
+        <EditText
+            android:id="@+id/inputText7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText7"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText7" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="8. Η Πάργα βρίσκεται στον νομό?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button7"  />
+
+        <EditText
+            android:id="@+id/inputText8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText8"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText8" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="9. Η Πάτρα είναι πρωτεύουσα του νομού?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button8"  />
+
+        <EditText
+            android:id="@+id/inputText9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText9"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText9" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="10. Η Θεσσαλονίκη είναι πρωτεύουσα του νομού?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button9"  />
+
+        <EditText
+            android:id="@+id/inputText10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText10"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText10" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="11. Το Καρπενήςι είναι πρωτεύουσα του νομού?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button10"  />
+
+        <EditText
+            android:id="@+id/inputText11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText11"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText11" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="12. Η Καλαμάτα είναι πρωτεύουσα του νομου?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button11"  />
+
+        <EditText
+            android:id="@+id/inputText12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText12"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText12" />
+
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="13. Η Λαμία είναι πρωτεύουσα του νομού?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button12"  />
+
+        <EditText
+            android:id="@+id/inputText13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText13"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText13" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="14. Ο Πύργος είναι πρωτεύουσα του νομού?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button13"  />
+
+        <EditText
+            android:id="@+id/inputText14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText14"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText14" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="15. Ο Άγιος Νικόλαος είναι πρωτεύουσα του νομού?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button14"  />
+
+        <EditText
+            android:id="@+id/inputText15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText15"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText15" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="16. Ο Βόλος είναι πρωτεύουσα του νομού?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button15"  />
+
+        <EditText
+            android:id="@+id/inputText16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText16"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText16" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="17. Ο νομός Εύβοιας έχει πρωτεύουσα?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button16"  />
+
+        <EditText
+            android:id="@+id/inputText17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText17"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText17" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="18. Ο νομός Αργολίδας έχει πρωτεύουσα?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button17"  />
+
+        <EditText
+            android:id="@+id/inputText18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText18"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText18" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="19. Ο νομός Λακωνίας έχει πρωτεύουσα?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button18"  />
+
+        <EditText
+            android:id="@+id/inputText19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText19"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText19" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="20. Ο νομός Χαλκιδικής έχει πρωτεύουσα?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button19"  />
+
+        <EditText
+            android:id="@+id/inputText20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText20"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText20" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="21. Η λίμνη Τριχωνίδα βρίσκεται στον νομό?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button20"  />
+
+        <EditText
+            android:id="@+id/inputText21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView21"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText21"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText21" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="22. Η λίμνη Βόλβη βρίσκεται στον νομό?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button21"  />
+
+        <EditText
+            android:id="@+id/inputText22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText22"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText22" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="23. Η Λίμνη Υλίκη βρίσκεται στον νομό?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button22"  />
+
+        <EditText
+            android:id="@+id/inputText23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView23"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText23"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText23" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="24. Η λίμνη Δοϊράνη βρίσκεται στον νομό?"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button23"  />
+
+        <EditText
+            android:id="@+id/inputText24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText24"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputText24" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="Επιστροφή"
+            android:background="@drawable/round_back_green20"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.084"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button24"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="επανάληψη"
+            android:background="@drawable/round_back_green20"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.84"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button24" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
+

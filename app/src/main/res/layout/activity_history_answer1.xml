@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFE0B2"
+    android:layout_height="match_parent">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:orientation="vertical"
+        tools:context=".History_answer1">
+
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:text="Ο Γεώργιος Παπανδρέου έμεινε γνωστός ως"
+            android:background="@drawable/round_back_blue"
+            android:textColor="#0C0C0C"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="108dp"
+            android:layout_height="43dp"
+            android:background="@drawable/back_white_stroke1_10"
+            android:gravity="center"
+            android:text="ο γέρος της Δημοκρατίας."
+            android:textColor="#478806"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/round_back_blue"
+            android:gravity="center"
+            android:text="Στον 5ο και 4ο αι. π.Χ. δεν πήρε ποτέ την ηγεμονία άλλων ελληνικών
+πόλεων"
+            android:textColor="#0C0C0C"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="121dp"
+            android:layout_height="45dp"
+            android:background="@drawable/back_white_stroke1_10"
+            android:gravity="center"
+            android:text="η Θεσσαλονίκη."
+            android:textColor="#478806"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="279dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/round_back_blue"
+            android:gravity="center"
+            android:text="Η Βυζαντινή Αυτοκρατορία ήταν"
+            android:textColor="#0C0C0C"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="130dp"
+            android:layout_height="85dp"
+            android:background="@drawable/back_white_stroke1_10"
+            android:gravity="center"
+            android:text="το Ανατολικό τμήμα της Ρωμαϊκής Αυτοκρατορίας."
+            android:textColor="#478806"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/round_back_blue"
+            android:gravity="center"
+            android:text="Ο Μακεδονικός Αγώνας ήταν σύγκρουση μεταξύ"
+            android:textColor="#0C0C0C"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="128dp"
+            android:layout_height="60dp"
+            android:background="@drawable/back_white_stroke1_10"
+            android:gravity="center"
+            android:text="των Ελλήνων και των Οθωμανών."
+            android:textColor="#478806"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/round_back_blue"
+            android:gravity="center"
+            android:text="Κατά τη διάρκεια της γερμανικής Κατοχής οι Έλληνες"
+            android:textColor="#0C0C0C"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="131dp"
+            android:layout_height="85dp"
+            android:background="@drawable/back_white_stroke1_10"
+            android:gravity="center"
+            android:text="σχημάτισαν ομάδες ένοπλης αντίστασης στα βουνά.."
+            android:textColor="#478806"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/round_back_blue"
+            android:gravity="center"
+            android:text="Κατά τη δεκαετία 1950-1960"
+            android:textColor="#0C0C0C"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="131dp"
+            android:layout_height="60dp"
+            android:background="@drawable/back_white_stroke1_10"
+            android:gravity="center"
+            android:text="πολλοί Έλληνες μετανάστευσαν."
+            android:textColor="#478806"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="280dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/round_back_blue"
+            android:gravity="center"
+            android:text="Οι βρετανικές αρχές συνέλαβαν και απαγχόνισαν για τον αγώνα τους
+εναντίον της βρετανικής κυριαρχίας στην Κύπρο τους"
+            android:textColor="#0C0C0C"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="131dp"
+            android:layout_height="60dp"
+            android:background="@drawable/back_white_stroke1_10"
+            android:gravity="center"
+            android:text="Μ.Καραολή και Α.Δημητρίου."
+            android:textColor="#478806"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="280dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/round_back_blue"
+            android:gravity="center"
+            android:text="Πνευματικό ίδρυμα που άρχισε να λειτουργεί τον 17ο αι. και
+επηρέασε τη συνείδηση του Ποντιακού Ελληνισμού."
+            android:textColor="#0C0C0C"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="135dp"
+            android:layout_height="60dp"
+            android:background="@drawable/back_white_stroke1_10"
+            android:gravity="center"
+            android:text="Φροντιστήριον της Τραπεζούντος."
+            android:textColor="#478806"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="280dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/round_back_blue"
+            android:gravity="center"
+            android:text="Εξαιτίας της έντονης παρουσίας του ελληνικού στοιχείου, μία περιοχή
+στον Νότο της Ιταλίας ονομάστηκε?"
+            android:textColor="#0C0C0C"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+            android:background="@drawable/back_white_stroke1_10"
+            android:gravity="center"
+            android:text="Μεγάλη Ελλάδα.."
+            android:textColor="#478806"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/round_back_blue"
+            android:gravity="center"
+            android:text="Τον δικτάτορα Παπαδόπουλο αποπειράθηκε να δολοφονήσει ο?"
+            android:textColor="#0C0C0C"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView49"/>
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+            android:background="@drawable/back_white_stroke1_10"
+            android:gravity="center"
+            android:text="Αλέκος Παναγούλης."
+            android:textColor="#478806"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/round_back_blue"
+            android:gravity="center"
+            android:text="Ο Γεώργιος Αβέρωφ (1815-1899) υπήρξε ένας από τους?"
+            android:textColor="#0C0C0C"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView51"/>
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="135dp"
+            android:layout_height="70dp"
+            android:background="@drawable/back_white_stroke1_10"
+            android:gravity="center"
+            android:text="μεγαλύτερους εθνικούς ευεργέτες."
+            android:textColor="#478806"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/round_back_blue"
+            android:gravity="center"
+            android:text="Η διάνοιξη της διώρυγας στον Ισθμό της Κορίνθου είναι έργο του?"
+            android:textColor="#0C0C0C"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView53"/>
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+            android:background="@drawable/back_white_stroke1_10"
+            android:gravity="center"
+            android:text="Χαρίλαου Τρικούπη."
+            android:textColor="#478806"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView55" />
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="280dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/round_back_blue"
+            android:gravity="center"
+            android:text="Μετά την προσάρτηση της Θεσσαλίας στο ελληνικό κράτος, τα μεγάλα
+αγροκτήματα (τσιφλίκια) της περιοχής?"
+            android:textColor="#0C0C0C"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView55"/>
+
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="135dp"
+            android:layout_height="70dp"
+            android:background="@drawable/back_white_stroke1_10"
+            android:gravity="center"
+            android:text="αγοράστηκαν από πλούσιους Έλληνες του εξωτερικού."
+            android:textColor="#478806"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView57" />
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/round_back_blue"
+            android:gravity="center"
+            android:text="Η Φεντερασιόν ήταν?"
+            android:textColor="#0C0C0C"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView57"/>
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="135dp"
+            android:layout_height="70dp"
+            android:background="@drawable/back_white_stroke1_10"
+            android:gravity="center"
+            android:text="εργατική οργάνωση στη Θεσσαλονίκη."
+            android:textColor="#478806"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView59" />
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="280dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/round_back_blue"
+            android:gravity="center"
+            android:text="Η ένοπλη αντίσταση που πρόβαλλαν οι Έλληνες κατά τη διάρκεια του
+Β΄ Παγκοσμίου Πολέμου εναντίον των δυνάμεων Κατοχής ονομάστηκε?"
+            android:textColor="#0C0C0C"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView59"/>
+
+        <TextView
+            android:id="@+id/textView62"
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+            android:background="@drawable/back_white_stroke1_10"
+            android:gravity="center"
+            android:text="Εθνική Αντίσταση."
+            android:textColor="#478806"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView61" />
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="280dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/round_back_blue"
+            android:gravity="center"
+            android:text="Αναγνωρίστε και γράψτε στο τετράδιο ποιος εικονίζεται να ξεκινά
+την Ελληνική Επανάσταση?"
+            android:textColor="#0C0C0C"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView61"/>
+
+        <TextView
+            android:id="@+id/textView64"
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+            android:background="@drawable/back_white_stroke1_10"
+            android:gravity="center"
+            android:text="Αλέξανδρος Υψηλάντης."
+            android:textColor="#478806"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView63" />
+
+        <TextView
+            android:id="@+id/textView65"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/round_back_blue"
+            android:gravity="center"
+            android:text="Μεγάλη επιτυχία της Εθνικής Αντίστασης υπήρξε η ανατίναξη?"
+            android:textColor="#0C0C0C"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView63"/>
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+            android:background="@drawable/back_white_stroke1_10"
+            android:gravity="center"
+            android:text="της γέφυρας του Γοργοποτάμου."
+            android:textColor="#478806"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView65"/>
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/round_back_blue"
+            android:gravity="center"
+            android:text="Την Ελληνική Επανάσταση προετοίμασε?"
+            android:textColor="#0C0C0C"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView65"/>
+
+        <TextView
+            android:id="@+id/textView68"
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+            android:background="@drawable/back_white_stroke1_10"
+            android:gravity="center"
+            android:text="η Φιλική Εταιρεία."
+            android:textColor="#478806"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView67"/>
+
+        <TextView
+            android:id="@+id/textView69"
+            android:layout_width="280dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/round_back_blue"
+            android:gravity="center"
+            android:text="Ο κεφαλικός φόρος που πλήρωναν οι Χριστιανοί επί Τουρκοκρατίας
+ονομαζόταν?"
+            android:textColor="#0C0C0C"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView67"/>
+
+        <TextView
+            android:id="@+id/textView70"
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+            android:background="@drawable/back_white_stroke1_10"
+            android:gravity="center"
+            android:text="χαράτσι."
+            android:textColor="#478806"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView69"/>
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="280dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/round_back_blue"
+            android:gravity="center"
+            android:text="Η εμφύλια διαμάχη, από το 1915 ως το 1917, αναφορικά με το αν η
+Ελλάδα θα συμμετείχε στον Α΄ Παγκόσμιο Πόλεμο, έμεινε γνωστή ως?"
+            android:textColor="#0C0C0C"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView69"/>
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:background="@drawable/back_white_stroke1_10"
+            android:gravity="center"
+            android:text="Εθνικός Διχασμός."
+            android:textColor="#478806"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView71"/>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

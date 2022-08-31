@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFE0B2"
+    android:layout_height="match_parent">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:orientation="vertical"
+        tools:context=".geografi2">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:text="1.Πόσες είναι οι διοικητικές περιφέρειες Ελλάδας;Να αναφέρετε τέσσερα(4)παραδείγματα"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine2"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView25"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText1"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine2"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:text="Να αναφέρετε τέσσερις (4) νομούς της Ελλάδας με τις πρωτεύουσές τους."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button27"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine3"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText2"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine3"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="280dp"
+            android:layout_height="350dp"
+            android:text="Σημειώσετε στο τετράδιο το όνομα έξι (6) νησιών από τις Κυκλάδες."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button28"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine4"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText3"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine4"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:text="Σημειώσετε στο τετράδιο τέσσερα (4) από τα νησιά και τις νησίδες που περιλαμβάνει η Περιφέρεια Κρήτης."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button29"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine5"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView28"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText4"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine5"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:text="Να αναφέρετε τέσσερις (4) νομούς της Ελλάδας που δεν βρέχονται από τη θάλασσα."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button30"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine6"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView29"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+        <Button
+            android:id="@+id/button31"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText5"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine6"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:text="Να αναφέρετε τέσσερις (4) νομούς της Ελλάδας που βρέχονται από θάλασσα."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button31"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine7"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView30"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText6"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine7"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:text="Να αναφέρετε τέσσερα (4) από τα βουνά της Ελλάδας."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button32"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine8"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView31"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText7"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine8"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:text="Να αναφέρετε τέσσερις (4) από τις λίμνες της Ελλάδας."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button33"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine9"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView32"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+        <Button
+            android:id="@+id/button34"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText8"
+            android:text="ΥΠΟΒΟΛΗ"
+
+            android:textColor="@color/white"
+
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine9"
+            app:layout_goneMarginLeft="24dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

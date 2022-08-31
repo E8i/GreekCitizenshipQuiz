@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFE0B2"
+    android:layout_height="match_parent">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:orientation="vertical"
+        tools:context=".gepgrafo3">
+
+
+        <TextView
+            android:id="@+id/textView88"
+            android:layout_width="280dp"
+            android:layout_height="400dp"
+            android:text="@string/question_40"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="280dp"
+            android:layout_height="240dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView88"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button36"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText1"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView89"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:text="Επιλέξτε και γράψτε στο τετράδιο τη σωστή απάντηση
+Το 1922, μετά τον Α ́ Παγκόσμιο Πόλεμο, συνέβη
+α. η καταστροφή της Μιλήτου.
+β. η Άλωση της Κωνσταντινούπολης.
+γ. η σφαγή της Χίου.
+δ. η Μικρασιατική καταστροφή."
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/round_back_white_stroke10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button36"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView89" />
+
+        <Button
+            android:id="@+id/button37"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText2"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView90"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:text="Γράψτε στο τετράδιο τη σωστή λέξη που λείπει:
+ Από το 1951 έως το 1967 το μεγαλύτερο νόμιμο κόμμα της Αριστεράς
+ήταν η Ενιαία _____________ Αριστερά."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button37"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView90" />
+
+        <Button
+            android:id="@+id/button38"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText3"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView91"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:text="Γράψτε στο τετράδιο τη σωστή λέξη που λείπει: Στη ____________ ο στρατός του Φιλίππου Β ́ της Μακεδονίας νίκησε
+τον"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button38"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView91"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button39"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText4"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView92"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:text="Γράψτε στο τετράδιο τη σωστή λέξη που λείπει: Τον 9ο αιώνα οι __________ κατέλαβαν την Κρήτη και ίδρυσαν εκεί
+εμιράτο."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button39"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName5"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView92" />
+
+        <Button
+            android:id="@+id/button40"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText5"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView93"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:text="Γράψτε στο τετράδιο τη σωστή λέξη που λείπει:Ο Αδαμάντιος __________ είναι ένας από τους σημαντικότερους
+εκπροσώπους του Νεοελληνικού Διαφωτισμού."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button40"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName6"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView93" />
+
+        <Button
+            android:id="@+id/button41"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText6"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView94"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:text="Να συμπληρώσετε το όνομα του προσώπου που λείπει από την
+πρόταση; Ο «Χρυσός Αιώνας» σχετίζεται με τη διακυβέρνηση της Αθηναϊκής
+Δημοκρατίας από τον ___________."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button41"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName7"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView94" />
+
+        <Button
+            android:id="@+id/button42"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText7"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView95"
+            android:layout_width="280dp"
+            android:layout_height="190dp"
+            android:text="Να συμπληρώσετε το όνομα του προσώπου που λείπει από την
+πρόταση; Το 390 μ.Χ. ο ρωμαίος αυτοκράτορας ________________________
+διέταξε τη σφαγή τουλάχιστον 7.000 Θεσσαλονικέων στο ιπποδρόμιο
+της πόλης."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button42"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName8"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView95" />
+
+        <Button
+            android:id="@+id/button43"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText8"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView96"
+            android:layout_width="280dp"
+            android:layout_height="190dp"
+            android:text="Να συμπληρώσετε το όνομα του προσώπου που λείπει από την
+πρόταση; Ο αρχιστράτηγος της Ελληνικής Επανάστασης που έμεινε γνωστός ως
+«γέρος του Μοριά» ήταν ο _______________________."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button43"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName9"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView96" />
+
+        <Button
+            android:id="@+id/button44"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText9"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView97"
+            android:layout_width="280dp"
+            android:layout_height="190dp"
+            android:text="Να συμπληρώσετε το όνομα του προσώπου που λείπει από την
+πρόταση; Ιδρυτής της ΕΡΕ ήταν ο ___________________."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button44"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName10"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView97" />
+
+        <Button
+            android:id="@+id/button45"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText10"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName10"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView98"
+            android:layout_width="280dp"
+            android:layout_height="190dp"
+            android:text="Να συμπληρώσετε το όνομα του προσώπου που λείπει από την
+πρόταση:Τον εκσυγχρονισμό της Ελλάδας τον 19ο αι. προώθησε κυρίως ο
+πρωθυπουργός ______________________________."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button45"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName11"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView98" />
+
+        <Button
+            android:id="@+id/button46"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText11"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName11"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:text="Να συμπληρώσετε το όνομα του προσώπου που λείπει από την
+πρόταση:Η βαλκανική συνεργασία εναντίον της Οθωμανικής Αυτοκρατορίας
+στις αρχές του 20ου αι. διευκολύνθηκε από τον έλληνα πρωθυπουργό
+__________________."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button46"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName12"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView99" />
+
+        <Button
+            android:id="@+id/button47"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText12"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName12"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:text="Να συμπληρώσετε το όνομα του προσώπου που λείπει από την
+πρόταση:Την εκστρατεία των Ελλήνων εναντίον των Περσών οδήγησε ο
+βασιλιάς ______________."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button46"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName13"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView100" />
+
+        <Button
+            android:id="@+id/button48"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText13"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName13"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView101"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:text="Να συμπληρώσετε το όνομα του προσώπου που λείπει από την
+πρόταση:Ηρωίδα της Ελληνικής Επανάστασης ήταν η καπετάνισσα από τις
+Σπέτσες ___________________________."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button48"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName14"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView101" />
+
+        <Button
+            android:id="@+id/button49"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText14"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName14"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView102"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:text="Να γράψετε με 30 περίπου λέξεις τι ήταν:η σάρισα"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button49"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName15"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView102" />
+
+        <Button
+            android:id="@+id/button50"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText15"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName15"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView103"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:text="Να γράψετε με 30 περίπου λέξεις τι ήταν:η Στάση του Νίκα"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button50"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName16"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView103" />
+
+        <Button
+            android:id="@+id/button51"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText16"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName16"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView104"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:text="Να γράψετε με 30 περίπου λέξεις τι ήταν:η Απέλλα"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button51"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName17"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView104" />
+
+        <Button
+            android:id="@+id/button52"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText17"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName17"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView105"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:text="Να γράψετε με 30 περίπου λέξεις τι ήταν:η Απέλλα"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button52"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName18"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView105" />
+
+        <Button
+            android:id="@+id/button53"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText18"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName18"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView106"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:text="Να συμπληρώσετε το όνομα του προσώπου που λείπει από την
+πρόταση:Για τη συμμετοχή ή όχι της Ελλάδας στον Α΄ Παγκόσμιο Πόλεμο
+υπήρξε διαφωνία μεταξύ του πρωθυπουργού και του βασιλιά
+______________."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button53"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName19"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView106" />
+
+        <Button
+            android:id="@+id/button54"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText19"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName19"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView107"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:text="Να συμπληρώσετε το όνομα του προσώπου που λείπει από την
+πρόταση:Γνωστός για την ανατίναξη της τουρκικής ναυαρχίδας στη Χίο είναι ο
+μπουρλοτιέρης ______________________."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button54"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName20"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView107" />
+
+        <Button
+            android:id="@+id/button55"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText20"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName20"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView108"
+            android:layout_width="280dp"
+            android:layout_height="250dp"
+            android:text="Να συμπληρώσετε το όνομα του προσώπου που λείπει από την
+πρόταση:Μια σημαντική συμβολική στιγμή Αντίστασης μέσα στην Κατοχή
+ήταν, όταν δύο νεαροί πατριώτες, ο ________________ και (4) ο
+______________________ , απομάκρυναν τη γερμανική σημαία από
+την Ακρόπολη."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button55"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName21"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView108" />
+
+        <Button
+            android:id="@+id/button56"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText21"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName21"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView109"
+            android:layout_width="280dp"
+            android:layout_height="190dp"
+            android:text="Γράψτε στο τετράδιο τη σωστή λέξη που λείπει:Ένα άρμα μάχης έριξε την κεντρική πύλη του Πολυτεχνείου τα
+ξημερώματα της 17ης __________ 1973."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button56"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName22"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView109" />
+
+        <Button
+            android:id="@+id/button57"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText22"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName22"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView110"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:text="Γράψτε στο τετράδιο τη σωστή λέξη που λείπει:Ο «οστρακισμός» ήταν μέτρο που θέσπισε στην αρχαία Αθήνα ο
+__________, προκειμένου να εξορίζεται προληπτικά
+όποιος θεωρούνταν επικίνδυνος για τη δημοκρατία."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button57"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName23"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView110" />
+
+        <Button
+            android:id="@+id/button58"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText23"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName23"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView111"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:text="Γράψτε στο τετράδιο τη σωστή λέξη που λείπει:Ο λόρδος ________ ήταν γνωστός άγγλος φιλέλληνας, που πέθανε κατά
+τη διάρκεια της Ελληνικής Επανάστασης στο Μεσολόγγι."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button58"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName24"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView111" />
+
+        <Button
+            android:id="@+id/button59"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText24"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName24"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView112"
+            android:layout_width="280dp"
+            android:layout_height="220dp"
+            android:text="Γράψτε στο τετράδιο τη σωστή λέξη που λείπει:Οι πολύνεκρες συγκρούσεις στην Αθήνα τον Δεκέμβριο του 1944 ανάμεσα
+στον ΕΛΑΣ και τις κυβερνητικές δυνάμεις, που υποστηρίζονταν από τον
+βρετανικό στρατό, ονομάστηκαν _______________."
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button59"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName25"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView112" />
+
+        <Button
+            android:id="@+id/button60"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText25"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName25"
+            app:layout_goneMarginLeft="24dp" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

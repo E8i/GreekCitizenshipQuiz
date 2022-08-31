@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFE0B2"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/questions"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_back_white10"
+        android:elevation="1dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="72 ερωτήσεις"
+        android:gravity="center"
+        android:textColor="#1F6BB8"/>
+
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_back_white10"
+        android:src="@drawable/greek"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Σημειώστε Σωστό(Σ) ή Λανθασμένο (Λ):"
+        android:background="@drawable/round_back_light_yollow10"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/answer_text_view"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        android:background="@drawable/round_back_white_stroke2_10"
+        android:text="@string/question_declaration"
+        android:textColor="#1F6BB8"
+        android:textSize="15sp"
+        android:textAllCaps="false" />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ture_button"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="40dp"
+            android:textSize="30dp"
+            android:background="@drawable/round_back_green20"
+            android:layout_height="wrap_content"
+            android:text="@string/true_text">
+        </Button>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:textSize="30dp"
+            android:background="@drawable/round_back_green20"
+            android:id="@+id/false_button"
+            android:text="@string/false_text">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+
+            android:id="@+id/prev_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:background="#FFE0B2"
+            android:contentDescription="@string/previous_text"
+            android:src="@drawable/backward"
+            tools:ignore="TouchTargetSizeCheck">
+
+
+        </ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:background="#FFE0B2"
+            android:contentDescription="@string/next_text"
+            android:src="@drawable/forward"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </ImageButton>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+

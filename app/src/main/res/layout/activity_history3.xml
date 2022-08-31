@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFE0B2"
+    android:layout_height="match_parent">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:orientation="vertical"
+        tools:context=".History3">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="260dp"
+            android:layout_height="215dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/greek1" />
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_31"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:background="@drawable/back_white_stroke1_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30sp"
+            android:text="@string/question_31A"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView76" />
+
+        <TextView
+        android:id="@+id/textView74"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/question_31B"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:paddingTop="12dp"
+        android:background="@drawable/round_back_white_stroke2_10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView73" />
+
+        <TextView
+            android:id="@+id/textView75"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_31C"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView74" />
+
+        <TextView
+            android:id="@+id/textView77"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_31D"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView75" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="353dp"
+            android:layout_height="219dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView77"
+            app:srcCompat="@drawable/greek2" />
+
+        <TextView
+            android:id="@+id/textView78"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_32"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:background="@drawable/back_white_stroke1_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <TextView
+            android:id="@+id/textView79"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30sp"
+            android:text="@string/question_32A"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView78" />
+
+        <TextView
+            android:id="@+id/textView80"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_32B"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView79" />
+
+        <TextView
+            android:id="@+id/textView81"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_32C"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView80" />
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_32D"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView81" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="170dp"
+            android:layout_height="219dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView82"
+            app:srcCompat="@drawable/greek3" />
+
+        <TextView
+            android:id="@+id/textView83"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_33"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:background="@drawable/back_white_stroke1_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <TextView
+            android:id="@+id/textView84"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30sp"
+            android:text="@string/question_33A"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView83" />
+
+        <TextView
+            android:id="@+id/textView85"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_33B"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView84" />
+
+        <TextView
+            android:id="@+id/textView86"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_33C"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView85" />
+
+        <TextView
+            android:id="@+id/textView87"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_33D"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView86" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/greek4"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView87"/>
+
+        <TextView
+            android:id="@+id/textView89"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_34"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:background="@drawable/back_white_stroke1_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <TextView
+            android:id="@+id/textView90"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30sp"
+            android:text="@string/question_34A"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView89" />
+
+        <TextView
+            android:id="@+id/textView91"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_34B"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView90" />
+
+        <TextView
+            android:id="@+id/textView92"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_34C"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView91" />
+
+        <TextView
+            android:id="@+id/textView93"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_34D"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView92" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/greek5"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView93"/>
+
+        <TextView
+            android:id="@+id/textView94"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_35"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:background="@drawable/back_white_stroke1_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/textView95"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30sp"
+            android:text="@string/question_35A"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView94" />
+
+        <TextView
+            android:id="@+id/textView96"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_35B"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView95" />
+
+        <TextView
+            android:id="@+id/textView97"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_35C"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView96" />
+
+        <TextView
+            android:id="@+id/textView98"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_35D"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView97" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/greek6"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView98"/>
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_36"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:background="@drawable/back_white_stroke1_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30sp"
+            android:text="@string/question_36A"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView99" />
+
+        <TextView
+            android:id="@+id/textView101"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_36B"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView100" />
+
+        <TextView
+            android:id="@+id/textView102"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_36C"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView101" />
+
+        <TextView
+            android:id="@+id/textView103"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_36D"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView102" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/greek7"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView103"/>
+
+        <TextView
+            android:id="@+id/textView104"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_37"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:background="@drawable/back_white_stroke1_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+        <TextView
+            android:id="@+id/textView105"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30sp"
+            android:text="@string/question_37A"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView104" />
+
+        <TextView
+            android:id="@+id/textView106"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_37B"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView105" />
+
+        <TextView
+            android:id="@+id/textView107"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_37C"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView106" />
+
+        <TextView
+            android:id="@+id/textView108"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_37D"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView107" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/greek8"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView108"/>
+
+        <TextView
+            android:id="@+id/textView109"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_38"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:background="@drawable/back_white_stroke1_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+        <TextView
+            android:id="@+id/textView110"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30sp"
+            android:text="@string/question_38A"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView109" />
+
+        <TextView
+            android:id="@+id/textView111"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_38B"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView110" />
+
+        <TextView
+            android:id="@+id/textView112"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_37C"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView111" />
+
+        <TextView
+            android:id="@+id/textView113"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_37D"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView112" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/greek9"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView113"/>
+
+        <TextView
+            android:id="@+id/textView114"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_39"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:background="@drawable/back_white_stroke1_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+        <TextView
+            android:id="@+id/textView115"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30sp"
+            android:text="@string/question_39A"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView114" />
+
+        <TextView
+            android:id="@+id/textView116"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_39B"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView115" />
+
+        <TextView
+            android:id="@+id/textView117"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_39C"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView116" />
+
+        <TextView
+            android:id="@+id/textView118"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/question_39D"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:background="@drawable/round_back_white_stroke2_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView117" />
+
+        <Button
+            android:id="@+id/button35"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:text="επιστροφή"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/round_back_light_yollow10"
+            app:layout_constraintTop_toBottomOf="@+id/textView118" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
