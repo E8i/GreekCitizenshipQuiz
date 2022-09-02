@@ -1184,6 +1184,456 @@ __________, προκειμένου να εξορίζεται προληπτικ�
             app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName25"
             app:layout_goneMarginLeft="24dp" />
 
+        <TextView
+            android:id="@+id/textView113"
+            android:layout_width="280dp"
+            android:layout_height="220dp"
+            android:text="coming soon1"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button60"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName26"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView113" />
+
+        <Button
+            android:id="@+id/button61"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText26"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName26"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView114"
+            android:layout_width="280dp"
+            android:layout_height="220dp"
+            android:text="coming soon2"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button61"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName27"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView114" />
+
+        <Button
+            android:id="@+id/button62"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText27"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName27"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+        android:id="@+id/textView115"
+        android:layout_width="280dp"
+        android:layout_height="220dp"
+        android:text="coming soon3"
+        android:background="@drawable/round_back_white_stroke10"
+        android:textColor="#0C0C0C"
+        android:textStyle="italic"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button62"
+        tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName28"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView115" />
+
+        <Button
+            android:id="@+id/button63"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText28"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName28"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView116"
+            android:layout_width="280dp"
+            android:layout_height="220dp"
+            android:text="coming soon4"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button63"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName29"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView116" />
+
+        <Button
+            android:id="@+id/button64"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText29"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName29"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView117"
+            android:layout_width="280dp"
+            android:layout_height="220dp"
+            android:text="coming soon5"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button64"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName30"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView117" />
+
+        <Button
+            android:id="@+id/button65"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText30"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName30"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView118"
+            android:layout_width="280dp"
+            android:layout_height="220dp"
+            android:text="coming soon6"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button65"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName31"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView118" />
+
+        <Button
+            android:id="@+id/button66"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText31"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName31"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView119"
+            android:layout_width="280dp"
+            android:layout_height="220dp"
+            android:text="coming soon7"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button66"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName32"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView119" />
+
+        <Button
+            android:id="@+id/button67"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText32"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName32"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView120"
+            android:layout_width="280dp"
+            android:layout_height="220dp"
+            android:text="coming soon8"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button67"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName33"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView120" />
+
+        <Button
+            android:id="@+id/button68"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText33"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName33"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView121"
+            android:layout_width="280dp"
+            android:layout_height="220dp"
+            android:text="coming soon9"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button68"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName34"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView121" />
+
+        <Button
+            android:id="@+id/button69"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText34"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName34"
+            app:layout_goneMarginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/textView122"
+            android:layout_width="280dp"
+            android:layout_height="220dp"
+            android:text="coming soon10"
+            android:background="@drawable/round_back_white_stroke10"
+            android:textColor="#0C0C0C"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button69"
+            tools:layout_editor_absoluteY="853dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName35"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/round_back_white10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView122" />
+
+        <Button
+            android:id="@+id/button70"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_back_green20"
+            android:onClick="updaText35"
+            android:layout_marginTop="52dp"
+            android:text="ΥΠΟΒΟΛΗ"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName35"
+            app:layout_goneMarginLeft="24dp" />
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

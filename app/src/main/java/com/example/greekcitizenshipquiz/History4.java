@@ -14,7 +14,9 @@ public class History4 extends AppCompatActivity {
 
     TextView textView88,textView89,textView90,textView91,textView92,textView93,textView94,textView95,
             textView96,textView97,textView98,textView99,textView100,textView101,textView102,textView103,
-    textView104,textView105,textView106,textView107,textView108,textView109,textView110,textView111,textView112;
+    textView104,textView105,textView106,textView107,textView108,textView109,textView110,textView111,textView112,
+            textView113,textView114,textView115,textView116,textView117,textView118,textView119,textView120,
+            textView121,textView122;
 
 
 
@@ -24,7 +26,10 @@ public class History4 extends AppCompatActivity {
     editTextTextPersonName13,editTextTextPersonName14,editTextTextPersonName15,editTextTextPersonName16,
     editTextTextPersonName17,editTextTextPersonName18,editTextTextPersonName19,editTextTextPersonName20,
             editTextTextPersonName21,editTextTextPersonName22,editTextTextPersonName23,editTextTextPersonName24,
-            editTextTextPersonName25;
+            editTextTextPersonName25,editTextTextPersonName26,editTextTextPersonName27,editTextTextPersonName28,
+            editTextTextPersonName29,editTextTextPersonName30,editTextTextPersonName31,editTextTextPersonName32,
+            editTextTextPersonName33,editTextTextPersonName34,editTextTextPersonName35;
+
 
 
     @Override
@@ -45,7 +50,12 @@ public class History4 extends AppCompatActivity {
         textView106 = (TextView) findViewById(R.id.textView106);textView107 = (TextView) findViewById(R.id.textView107);
         textView108 = (TextView) findViewById(R.id.textView108);textView109 = (TextView) findViewById(R.id.textView109);
         textView110 = (TextView) findViewById(R.id.textView110);textView111 = (TextView) findViewById(R.id.textView111);
-        textView112 = (TextView) findViewById(R.id.textView112);
+        textView112 = (TextView) findViewById(R.id.textView112);textView113 = (TextView) findViewById(R.id.textView113);
+        textView114 = (TextView) findViewById(R.id.textView114);textView115 = (TextView) findViewById(R.id.textView115);
+        textView116 = (TextView) findViewById(R.id.textView116);textView117 = (TextView) findViewById(R.id.textView117);
+        textView118 = (TextView) findViewById(R.id.textView118);textView119 = (TextView) findViewById(R.id.textView119);
+        textView120 = (TextView) findViewById(R.id.textView120);textView121 = (TextView) findViewById(R.id.textView121);
+        textView122 = (TextView) findViewById(R.id.textView122);
 
 
 
@@ -75,6 +85,16 @@ public class History4 extends AppCompatActivity {
         editTextTextPersonName23 = (EditText) findViewById(R.id.editTextTextPersonName23);
         editTextTextPersonName24 = (EditText) findViewById(R.id.editTextTextPersonName24);
         editTextTextPersonName25 = (EditText) findViewById(R.id.editTextTextPersonName25);
+        editTextTextPersonName26 = (EditText) findViewById(R.id.editTextTextPersonName26);
+        editTextTextPersonName27 = (EditText) findViewById(R.id.editTextTextPersonName27);
+        editTextTextPersonName28 = (EditText) findViewById(R.id.editTextTextPersonName28);
+        editTextTextPersonName29 = (EditText) findViewById(R.id.editTextTextPersonName29);
+        editTextTextPersonName30 = (EditText) findViewById(R.id.editTextTextPersonName30);
+        editTextTextPersonName31 = (EditText) findViewById(R.id.editTextTextPersonName31);
+        editTextTextPersonName32 = (EditText) findViewById(R.id.editTextTextPersonName32);
+        editTextTextPersonName33 = (EditText) findViewById(R.id.editTextTextPersonName33);
+        editTextTextPersonName34 = (EditText) findViewById(R.id.editTextTextPersonName34);
+        editTextTextPersonName35 = (EditText) findViewById(R.id.editTextTextPersonName35);
 
 
 
