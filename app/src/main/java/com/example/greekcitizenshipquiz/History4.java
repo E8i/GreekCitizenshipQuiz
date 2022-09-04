@@ -23,8 +23,8 @@ public class History4 extends AppCompatActivity {
     EditText editTextTextPersonName,editTextTextPersonName2,editTextTextPersonName3,editTextTextPersonName4,
             editTextTextPersonName5,editTextTextPersonName6,editTextTextPersonName7,editTextTextPersonName8,
             editTextTextPersonName9,editTextTextPersonName10,editTextTextPersonName11,editTextTextPersonName12,
-    editTextTextPersonName13,editTextTextPersonName14,editTextTextPersonName15,editTextTextPersonName16,
-    editTextTextPersonName17,editTextTextPersonName18,editTextTextPersonName19,editTextTextPersonName20,
+            editTextTextPersonName13,editTextTextPersonName14,editTextTextPersonName15,editTextTextPersonName16,
+            editTextTextPersonName17,editTextTextPersonName18,editTextTextPersonName19,editTextTextPersonName20,
             editTextTextPersonName21,editTextTextPersonName22,editTextTextPersonName23,editTextTextPersonName24,
             editTextTextPersonName25,editTextTextPersonName26,editTextTextPersonName27,editTextTextPersonName28,
             editTextTextPersonName29,editTextTextPersonName30,editTextTextPersonName31,editTextTextPersonName32,
@@ -76,6 +76,7 @@ public class History4 extends AppCompatActivity {
         editTextTextPersonName13 = (EditText) findViewById(R.id.editTextTextPersonName13);
         editTextTextPersonName14 = (EditText) findViewById(R.id.editTextTextPersonName14);
         editTextTextPersonName15 = (EditText) findViewById(R.id.editTextTextPersonName15);
+        editTextTextPersonName16 = (EditText) findViewById(R.id.editTextTextPersonName16);
         editTextTextPersonName17 = (EditText) findViewById(R.id.editTextTextPersonName17);
         editTextTextPersonName18 = (EditText) findViewById(R.id.editTextTextPersonName18);
         editTextTextPersonName19 = (EditText) findViewById(R.id.editTextTextPersonName19);
@@ -366,11 +367,99 @@ public class History4 extends AppCompatActivity {
     }
     public void updaText25(View view){
 
-        textView112.setText("Οι πολύνεκρες συγκρούσεις στην Αθήνα τον Δεκέμβριο του 1944\n" +
-                "ανάμεσα στον ΕΛΑΣ και τις κυβερνητικές δυνάμεις, που υποστηρίζονταν\n" +
-                "από τον βρετανικό στρατό, ονομάστηκαν -«Δεκεμβριανά»-.");
+        textView112.setText("Απαντήσεις:Ο Μέγας Αλέξανδρος έτρεψε σε φυγή τον βασιλιά των Περσών\n" +
+                "Δαρείο στη μάχη -στην Ισσό-.");
         textView112.setTextColor(Color.BLUE);
         editTextTextPersonName25.setTextColor(GRAY);
+
+        System.out.println("Button clicked");
+
+    }
+    public void updaText26(View view){
+
+        textView113.setText("Ο Παπαφλέσσας σκοτώθηκε στη μάχη στο Μανιάκι.");
+        textView113.setTextColor(Color.BLUE);
+        editTextTextPersonName26.setTextColor(GRAY);
+
+        System.out.println("Button clicked");
+
+    }
+    public void updaText27(View view){
+
+        textView114.setText("Το θωρηκτό Αβέρωφ διακρίθηκε στη ναυμαχία της Έλλης.");
+        textView114.setTextColor(Color.BLUE);
+        editTextTextPersonName27.setTextColor(GRAY);
+
+        System.out.println("Button clicked");
+
+    }
+    public void updaText28(View view){
+
+        textView115.setText("Οι Αθηναίοι νίκησαν τους Σπαρτιάτες στη ναυμαχία στις Αργινούσες.");
+        textView115.setTextColor(Color.BLUE);
+        editTextTextPersonName28.setTextColor(GRAY);
+
+        System.out.println("Button clicked");
+
+    }
+    public void updaText29(View view){
+
+        textView116.setText("Η Μακεδονία, όταν υπέταξε και ένωσε όλες τις υπόλοιπες\n" +
+                "αρχαιοελληνικές πόλεις-κράτη, ήταν το κράτος του βασιλιά -Φιλίππου\n" +
+                "Β΄-.");
+        textView116.setTextColor(Color.BLUE);
+        editTextTextPersonName29.setTextColor(GRAY);
+
+        System.out.println("Button clicked");
+
+    }
+    public void updaText30(View view){
+
+        textView117.setText("Τελευταίος αυτοκράτορας του Βυζαντίου ήταν ο -Κωνσταντίνος ΙΑ΄\n" +
+                "Παλαιολόγος-.");
+        textView117.setTextColor(Color.BLUE);
+        editTextTextPersonName30.setTextColor(GRAY);
+
+        System.out.println("Button clicked");
+
+    }
+    public void updaText31(View view){
+
+        textView118.setText("Την Ελληνική Επανάσταση άρχισε από τη Μολδοβλαχία ο -Αλέξανδρος\n" +
+                "Υψηλάντης-.");
+        textView118.setTextColor(Color.BLUE);
+        editTextTextPersonName31.setTextColor(GRAY);
+
+        System.out.println("Button clicked");
+
+    }
+    public void updaText32(View view){
+
+        textView119.setText("Πρώτος κυβερνήτης του νέου ελληνικού κράτους ήταν ο -Ιωάννης\n" +
+                "Καποδίστριας-.");
+        textView119.setTextColor(Color.BLUE);
+        editTextTextPersonName32.setTextColor(GRAY);
+
+        System.out.println("Button clicked");
+
+    }
+    public void updaText33(View view){
+
+        textView120.setText("Εκκλησία του δήμου ήταν η γενική συνέλευση όλων των Αθηναίων\n" +
+                "πολιτών στην αρχαιότητα.");
+        textView120.setTextColor(Color.BLUE);
+        editTextTextPersonName33.setTextColor(GRAY);
+
+        System.out.println("Button clicked");
+
+    }
+    public void updaText34(View view){
+
+        textView121.setText("Ελευθερία ή Θάνατος ήταν το ελληνικό επαναστατικό σύνθημα του\n" +
+                "1821. Θεωρείται ότι ο αριθμός των λωρίδων στην ελληνική σημαία\n" +
+                "αντιστοιχεί στον αριθμό των συλλαβών του.");
+        textView121.setTextColor(Color.BLUE);
+        editTextTextPersonName34.setTextColor(GRAY);
 
         System.out.println("Button clicked");
 
